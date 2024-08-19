@@ -1,67 +1,131 @@
-<html lang="en"><head>
-	<title>COMAPNY Phishing</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-	<style type="text/css">.header{
-    background-color: #000;
-  }
-  .navLink{
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  b{
-    color:#EF5350;
-  }
-	</style>
+<html lang="en">
+<head>
+    <title>Simulated Phishing Attack</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style type="text/css">
+        body {
+            background-color: #121212;
+            color: #f5f5f5;
+            font-family: 'Poppins';font-size: 22px;
+        }
+        .header {
+            background-color: #1f3a93;
+            padding: 20px;
+        }
+        .navLink h3 {
+            margin: 0;
+            font-weight: bold;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+        }
+        .navLink img {
+            margin-right: 10px;
+        }
+        .jumbotron {
+            background-color: #2c2c2c;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 35px;
+        }
+        h2, h1 {
+            color: #f5f5f5;
+        }
+        p {
+            color: #d1d1d1;
+        }
+        .container {
+            margin-top: 60px;
+        }
+        .row {
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tip-box {
+            border: 2px solid #f5f5f5;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            flex-grow: 1;
+            margin: 0 15px;
+        }
+        pre {
+            background-color: #1c1c1c;
+            border: 1px solid #444;
+            color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        img {
+            border-radius: 5px;
+        }
+        .info-section {
+            display: flex;
+            align-items: flex-start;
+            background-color: #2c2c2c;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        .info-section img {
+            margin-top: 60;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .info-section p {
+            color: #d1d1d1;
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 <body>
-<div class="header" style="text-align:left;">
-<div class="navLink">
-<h3 style="margin:0;"><img height="50" src="companyImageSrc"/><b> Phishing Test</b></h3>
-</div>
-</div>
 
-<div class="container" style="text-align:center">
-<div class="jumbotron">
-<h2>You clicked on a simulated phishing test.</h2>
-
-<h3>Here are some tips to help you stay safer in the future</h3>
+<div class="header">
+    <div class="navLink">
+        <h3><img height="50" src="logo2.png" alt="Incito Logo"/> You have been PHISHED by your security administrators at Incito</h3>
+    </div>
 </div>
 
-<div class="row">
-<div class="col-md-4">
-<h1>Tip: #1</h1>
+<div class="container text-center">
+    <div class="jumbotron">
+        <h2>You clicked on a simulated phishing test, but don't worry you have not been legitimately phished - this time...</h2>
+        <h2>Here are some tips to help you stay safer in the future</h2>
+    </div>
 
-<h2>Stop, Look, Think</h2>
+    <div class="row">
+        <div class="col-md-4 tip-box">
+            <h1>Tip: #1</h1>
+            <h2>Stop, Look, Think</h2>
+            <p>Did anything look out of the ordinary? Did you recognize the sender's address? Was it similar but not the same as an official email?</p>
+            <pre>support@incito.com.au</pre>
+        </div>
 
-<p>Did anything look out of the ordinary? Did you recognize the senders address? Was it similar but not the same as an offical email?</p>
+        <div class="col-md-4 tip-box">
+            <h1>Tip: #2</h1>
+            <h2>Do you spot a red flag?</h2>
+            <p>At Bartons, any email from an external sender should have a caution message at the very top. Do you see this banner?</p>
+            <img src="external.png" width="100%" alt="External Warning Banner"/>
+        </div>
 
-<pre>
+        <div class="col-md-4 tip-box">
+            <h1>Tip: #3</h1>
+            <h2>When in doubt, throw it out</h2>
+            <p>If you ever think that an email is suspicious, it is better to err on the side of caution. Forward it to support@incito.com.au</p>
+        </div>
+    </div>
 
- </pre>
+    <div class="info-section">
+        <img src="phish.png" alt="Phishing Image" width="150" height="150">
+        <p>
+            Phishing attacks can have devastating consequences for businesses of all sizes. By tricking employees into divulging sensitive information, such as login credentials or financial data, cybercriminals can gain unauthorised access to corporate networks. This can lead to data breaches, financial losses, and damage to the company’s reputation. In severe cases, it can even result in legal liabilities and loss of customer trust. It’s crucial for organizations to educate their employees on how to recognize and avoid phishing attempts. Regular training and simulated phishing exercises can help in reducing the likelihood of successful attacks, thereby protecting the business and its stakeholders.
+        </p>
+    </div>
 
-<p style="font-size:1.2em;">Information Technology &lt;it@company.<font color="red">co</font>&gt;</p>
 </div>
 
-<div class="col-md-4">
-<h1>Tip: #2</h1>
-
-<h2>Do you spot a red flag?</h2>
-
-<p>At COMAPNY any email from an external sender should have a caution message at the very top. Do you see this banner?</p>
-<img src="companyImgSrc" width="100%"/></div>
-
-<div class="col-md-4">
-<h1>Tip: #3</h1>
-
-<h2>When in doubt throw it out</h2>
-
-<p>If you ever think that an email is suspicous it is better to err on the side of caution. Forward it to phish@COMPANY.com</p>
-</div>
-</div>
-</div>
-
-
-</body></html>
+</body>
+</html>
